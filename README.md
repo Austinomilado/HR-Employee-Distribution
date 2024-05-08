@@ -2,15 +2,15 @@
 
 ### Project Overview
 
-The HR Employee Dataset provides comprehensive insights into the workforce of an organization, encompassing various aspects such as employee demographics, performance metrics, turnover rate, and more. This overview aims to highlight key features and potential applications of the dataset.
+The HR Employee Dataset provides valuable insights into the organization's workforce composition, dynamics, and trends, facilitating informed decision-making across various HR functions, including recruitment, retention, talent development, and succession planning.
 
 ### Tools
 
- . Excel - Data Cleaning
+ * Excel - Data Cleaning
  
- . SQL - Data Analysis
+ * SQL - Data Analysis
  
- . Tableau - Creating Reports
+ * Tableau - Creating Reports
 
 ### Data Cleaning/Preparation
 
@@ -348,9 +348,66 @@ WHERE termdate <= curdate() AND termdate <> '0000-00-00' AND age >= 21
 GROUP BY department;
 ```
 
+### HR Employee Report/Dashboard 
+
+![Dashboard 1](https://github.com/Austinomilado/HR-Employee-Distribution/assets/86606293/3e24cd7d-618a-4344-bb7d-43317493f5b9)
+
+### Data Used
+
+#### Data - HR Data with over 22000 rows from the year 2000 to 2020.
+
+#### Data Cleaning & Analysis - MySQL Workbench
+
+#### Data Visualization - Tableau
 
 
+### Summary of Findings
+
+* There are more male employees
+* White race is the most dominant while Native Hawaiian or other pacific islander are the least dominant.
+* The youngest employee is 20 years old and the oldest is 57 years old
+* 5 age groups were created (21-27, 28-37, 35-47, 42-57, 49-67). A large number of employees were between 28-37 followed by 42-57 while the smallest group was 49-67.
+* A large number of employees work at the headquarters versus remotely.
+* The average length of employment for terminated employees is around 8 years.
+* The gender distribution across departments is fairly balanced but there are generally more male than female employees.
+* The Engineering department has the highest turnover rate followed by Accounting. The least turn over rate are in the Legal and Auditing departments.
+* A large number of employees come from the state of Ohio.
+* The net change in employees has increased over the years, while the change in Termination has decreased over the years.
+* The average tenure for each department is about 9 years with Sales and Services having the highest, While Human Resources and business Development having the lowest.
 
 
+### Recommendation
 
+Based on the insights derived from the HR Employee Dataset, several recommendations can be made to optimize HR strategies and enhance organizational effectiveness:
 
+#### Diversity and Inclusion Initiatives:
+* Implement initiatives to promote diversity and inclusion within the organization, particularly focusing on increasing representation of underrepresented groups such as Native Hawaiian or other Pacific Islander employees and females in certain departments.
+
+#### Talent Acquisition and Retention:
+* Develop targeted recruitment strategies to attract talent from a broader demographic pool, including regions beyond Ohio, to ensure a diverse workforce.
+* Focus on retaining employees within the Engineering and Accounting departments by identifying and addressing factors contributing to turnover, such as career development opportunities and work-life balance initiatives.
+
+#### Employee Engagement and Satisfaction:
+* Enhance employee engagement efforts, particularly for remote workers, to ensure they feel connected and valued within the organization.
+* Implement programs to improve overall employee satisfaction, taking into account factors such as compensation, career advancement opportunities, and workplace culture.
+
+#### Succession Planning and Leadership Development:
+* Develop robust succession planning programs to groom high-potential employees for leadership positions, considering the average tenure for each department and potential retirements in the future.
+* Invest in leadership development programs, particularly in departments with high turnover rates, to strengthen leadership capabilities and reduce the impact of turnover.
+
+#### Performance Management and Feedback:
+* Enhance performance management processes to recognize and reward high-performing employees, thereby increasing employee motivation and engagement.
+* Implement regular feedback mechanisms to understand employee concerns and address them proactively, contributing to a positive work environment and reducing turnover.
+
+#### Data-Driven Decision-Making:
+* Continuously monitor and analyze employee data to identify trends, patterns, and areas for improvement, enabling data-driven decision-making in HR strategies and initiatives.
+* Utilize insights from the net change in employees over the years to forecast future workforce needs and align recruitment and retention efforts accordingly.
+
+#### Employee Development and Training:
+* Invest in training and development programs tailored to the needs of different age groups and departments, focusing on enhancing skills and competencies that are critical for organizational success.
+* Provide opportunities for cross-functional training and career development to increase employee engagement and retention.
+
+### Limitations
+
+* Some records had negative ages and these were excluded during querying(967 records). Ages used were 21 years and above.
+* Some termdates were far into the future and were not included in the analysis(1599 records). The only term dates used were those less than or equal to the current date.
