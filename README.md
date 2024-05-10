@@ -363,17 +363,21 @@ GROUP BY department;
 
 ### Summary of Findings
 
-* There are more male employees
-* White race is the most dominant while Native Hawaiian or other pacific islander are the least dominant.
-* The youngest employee is 20 years old and the oldest is 57 years old
-* 5 age groups were created (21-27, 28-37, 35-47, 42-57, 49-67). A large number of employees were between 28-37 followed by 42-57 while the smallest group was 49-67.
-* A large number of employees work at the headquarters versus remotely.
-* The average length of employment for terminated employees is around 8 years.
-* The gender distribution across departments is fairly balanced but there are generally more male than female employees.
-* The Engineering department has the highest turnover rate followed by Accounting. The least turn over rate are in the Legal and Auditing departments.
-* A large number of employees come from the state of Ohio.
-* The net change in employees has increased over the years, while the change in Termination has decreased over the years.
-* The average tenure for each department is about 9 years with Sales and Services having the highest, While Human Resources and business Development having the lowest.
+1. **Gender Distribution:** There are generally more male employees, with a fairly balanced gender distribution across departments, though male employees outnumber female employees overall.
+
+2. **Ethnicity:** The White race is the most dominant, while Native Hawaiian or other Pacific Islander are the least dominant.
+
+3. **Age Distribution:** Employees span from 20 to 57 years old, with the majority falling within the 28-37 and 42-57 age groups. The smallest age group is 49-67.
+
+4. **Work Location:** A large number of employees work at the headquarters compared to remotely.
+
+5. **Termination:** The average length of employment for terminated employees is around 8 years, with Engineering and Accounting departments experiencing the highest turnover rates, while Legal and Auditing departments have the lowest turnover rates.
+
+6. **Location:** A significant portion of employees come from the state of Ohio.
+
+7. **Employee Trends:** The net change in employees has increased over the years, while the change in termination has decreased over the years.
+
+8. **Tenure:** The average tenure for each department is about 9 years, with Sales and Services having the highest tenure, while Human Resources and Business Development have the lowest.
 
 
 ### Recommendation
@@ -406,6 +410,15 @@ Based on the insights derived from the HR Employee Dataset, several recommendati
 #### Employee Development and Training:
 * Invest in training and development programs tailored to the needs of different age groups and departments, focusing on enhancing skills and competencies that are critical for organizational success.
 * Provide opportunities for cross-functional training and career development to increase employee engagement and retention.
+
+
+#### Remote Work Policies: 
+* Given the preference for headquarters-based work, consider reviewing and potentially expanding remote work policies to accommodate employee preferences and improve work-life balance.
+
+
+#### Location-Based Initiatives: 
+* Since a significant number of employees come from Ohio, consider implementing location-based initiatives to support and engage these employees, such as networking events, community involvement opportunities, and local benefits.
+
 
 ### Limitations
 
